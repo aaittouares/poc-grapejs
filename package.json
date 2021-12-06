@@ -1,0 +1,28 @@
+{
+  "name": "grapesjs-basic",
+  "version": "1.0.0",
+  "description": "Use React components in GrapesJS",
+  "keywords": [
+    "react",
+    "grapesjs"
+  ],
+  "main": "src/index.js",
+  "dependencies": {   
+    "grapesjs": "0.17.29"    
+  },
+  "devDependencies": {
+    "react-scripts": "4.0.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
